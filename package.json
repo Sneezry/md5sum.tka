@@ -1,0 +1,6 @@
+{
+  "displayName": "md5sum",
+  "icon": "hash.png",
+  "main": "index.js",
+  "view": "view"
+}

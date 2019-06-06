@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'ZCOOL KuaiLe';
+  src: url(ZCOOLKuaiLe-Regular.ttf);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: 'ZCOOL KuaiLe';
+  min-width: 700px;
+  min-height: 450px;
+  color: black;
+}
+
+.main {
+  padding: 20px;
+  background: #eee;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type=file] {
+  display: none;
+}
+
+label {
+  display: block;
+  width: 100%;
+  height: calc(100% - 320px);
+  background: white;
+  margin-bottom: 20px;
+  outline: 2px dashed black;
+  outline-offset: -10px;
+  font-size: 36px;
+  text-align: center;
+  padding: 50px;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.drag_in {
+  background: #f2f2f2;
+}
+
+#result {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  outline: 2px dashed black;
+  outline-offset: -10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.calculation {
+  background: url(bird.gif) no-repeat center white;
+  background-size: contain;
+}
+
+.filename {
+  padding-bottom: 5px;
+  border-bottom: 2px dashed black;
+}
+
+code {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
